@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Padauk&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+$font-family-sans-serif: 'Barlow','Padauk', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.del-btn{
+  display: none;
+  font-size: 10px;
+}
+
+#rows tr:hover .del-btn{
+  display: block;
+  transition: 1.5s;
+  cursor: pointer;
+
+}
